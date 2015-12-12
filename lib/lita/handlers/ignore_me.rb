@@ -15,12 +15,13 @@ module Lita
       def ignore_me(response)
         source = response.message.source
         name = source.user.name
+        room = source.room_object.name
 
         if ignored? source
-          response.reply t('already_ignored', name: name, room: source.room)
+          response.reply t('already_ignored', name: name, room: room)
         else
           ignore source
-          response.reply t('ignored', name: name, room: source.room)
+          response.reply t('ignored', name: name, room: room)
         end
       end
 
