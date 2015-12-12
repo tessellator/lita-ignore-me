@@ -2,9 +2,12 @@ en:
   lita:
     handlers:
       ignore_me:
-        ignore_help: Instructs the robot to ignore you unless you address it directly.
-        listen_help: Instructs the robot to no longer ignore you.
+        ignore_help: Instructs the robot to ignore you in the current room unless you address it directly.
+        ignore_help_with_room: Instructs the robot to ignore you in the specified room unless you address it directly.
+        listen_help: Instructs the robot to no longer ignore you in the current room.
+        listen_help_with_room: Instructs the robot to no longer ignore you in the specified room.
         ignored: "Okay %{name}, I will ignore you in %{room} unless you address me directly."
         already_ignored: "I'm already ignoring you in %{room}, %{name}."
-        listening: "Okay %{name}, I'm listening."
-        already_listening: "Don't worry %{name}, I'm not ignoring you! :heart:"
+        listening: "Okay %{name}, I'm listening to you in %{room}."
+        already_listening: "Don't worry %{name}, I'm not ignoring you in %{room}! :heart:"
+        sorry_no_room: "I'm sorry %{name}, I'm afraid I can't do that. That room doesn't exist."
