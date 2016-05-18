@@ -1,6 +1,6 @@
 Gem::Specification.new do |spec|
   spec.name          = "lita-ignore-me"
-  spec.version       = "0.1.0"
+  spec.version       = "0.2.0"
   spec.authors       = ["Chad Taylor"]
   spec.email         = ["taylor.thomas.c@gmail.com"]
   spec.description   = %q{A Lita extension to ignore a user's non-command messages upon request.}
