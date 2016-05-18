@@ -1,5 +1,9 @@
 # lita-ignore-me
 
+[![RubyGems](https://img.shields.io/gem/v/lita-ignore-me.svg)](https://rubygems.org/gems/lita-ignore-me)
+[![Build Status](https://img.shields.io/travis/tessellator/lita-ignore-me/master.svg)](https://travis-ci.org/tessellator/lita-ignore-me)
+[![Code Climate](https://img.shields.io/codeclimate/github/tessellator/lita-ignore-me.svg)](https://codeclimate.com/github/tessellator/lita-ignore-me)
+
 **lita-ignore-me** is a Lita extension that allows a user to tell the robot that he or she wishes to be ignored unless addressing the robot directly. This means that routes that are triggered that are not commands are not executed.
 
 ## Installation
